@@ -2,7 +2,7 @@
 $host = 'localhost'; // Your database host
 $db = 'hob';     // Your database name
 $user = 'root';      // Your database username
-$pass = '';          // Your database password
+$pass = 'yourpassword';          // Your database password
 
 // Create connection
 $conn = mysqli_connect($host, $user, $pass, $db);
