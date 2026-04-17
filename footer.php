@@ -52,7 +52,7 @@
         </div>
         <div class="bottom-copies text-center">
             <div class="container">
-                <p class="copy-footer-29">© 2024 HOUSE OF BEAUTY. All rights reserved |<br> Designed by <a
+                <p class="copy-footer-29">© 2026 HOUSE OF BEAUTY. All rights reserved |<br> Designed by <a
                         href="tel:+(91) 63698 65319"><span style="color:#f9506f;  FONT-WEIGHT: 700;">ABDUL WAHID S</SPAN></a></p>
             </div>
         </div>
