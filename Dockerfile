@@ -1,11 +1,12 @@
-# Use official PHP Apache image
 FROM php:8.2-apache
 
-# Copy project files into container
-COPY . /var/www/html/
+# Install MySQL extensions (THIS FIXES YOUR ERROR)
+RUN docker-php-ext-install mysqli pdo pdo_mysql
 
-# Enable Apache rewrite (optional)
+# Enable Apache rewrite module
 RUN a2enmod rewrite
 
-# Set working directory
+# Copy project files
+COPY . /var/www/html/
+
 WORKDIR /var/www/html
