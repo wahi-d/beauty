@@ -15,3 +15,4 @@
 2. Configure db.php
 3. Run on localhost
 test2
+pipeline test
