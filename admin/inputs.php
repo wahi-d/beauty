@@ -1,5 +1,5 @@
 <?php
-include 'db.php'; // Include your database connection
+include '../db.php'; // Include your database connection
 include 'auth.php';
 	
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

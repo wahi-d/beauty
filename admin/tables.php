@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-include 'db.php'; // Include your database connection
+include '../db.php'; // Include your database connection
 
 
 if (isset($_GET['delete_event'])) {
